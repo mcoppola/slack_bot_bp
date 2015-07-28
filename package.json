@@ -1,5 +1,5 @@
 {
-  "name": "Slack Bot",
+  "name": "slack-bot-bp",
   "version": "0.0.01",
   "description": "Slack Bot boilerplate",
   "repository": {
@@ -11,6 +11,7 @@
   "dependencies": {
     "slack-client": "x",
     "request": "x",
+    "lodash": "x",
     "async": "x"
   }
 }

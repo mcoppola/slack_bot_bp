@@ -61,5 +61,15 @@ Bot.prototype.say = function(message) {
 	self.slackChannel._client._send(m);
 };
 
+Bot.prototype.help = function(sourceCmd) {
+	var self = this;
+
+	self.say('*Commands:*', sourceCmd.channel);
+	var list = _.keys(commands);
+	for (var i = list.length - 1; i >= 0; i--) {
+	 	self.say(list[i], sourceCmd.channel);
+	 }; 
+}
+
 
 module.exports = new Bot();

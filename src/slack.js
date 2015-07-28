@@ -1,6 +1,6 @@
 var Slack = require('slack-client');
 	
-var token = 'YOUR_BOT_TOKEN',
+var token = 'xoxb-8284658500-8yRYnFJ9QX0bzKrhFSJhh56B',
     autoReconnect = true,
     autoMark = true;
     
